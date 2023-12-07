@@ -1,0 +1,108 @@
+.sqs_block_content {
+    max-width: 1440px;
+    margin: 0px auto;
+
+    .sqs_block_main_content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6.6vmax;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        .sqs_html_content {
+            .utility_title_content {
+                h4 {
+                    color: white;
+                    font-size: 1.6rem;
+                    line-height: 1em;
+                    font-family: "Rama Gothic E W01 Bold";
+                    font-weight: 600;
+                    letter-spacing: -0.03em;
+                    margin: 2rem 0;
+                }
+            }
+
+            .sub_title_content {
+                p {
+                    font-family: "Space Mono";
+                    color: white;
+                    font-weight: 400;
+                    line-height: 1.5em;
+                    -webkit-font-smoothing: antialiased;
+                    margin: 1rem 0;
+                    font-size: 14px;
+                    margin-right: 60px;
+                }
+            }
+
+        }
+
+        .sqs_icon {
+            img {
+                width: 518px;
+                height: 523px;
+                object-fit: cover;
+            }
+        }
+
+    }
+
+    .centeredButton {
+        display: flex;
+        justify-content: center;
+        /* Adjust the margin as needed */
+    }
+
+    .button {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 1.3em 1.9em;
+        border: 1px solid white;
+        cursor: pointer;
+        font-family: "Space Mono";
+    }
+
+    .button:hover {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .item_pagination_next {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        align-items: center;
+
+        a {
+            color: white;
+            font-family: "Rama Gothic E W01 Bold";
+            font-size: 50px;
+        }
+
+        .IoIosArrowForward {
+            color: #ffffff;
+            margin-left: 10px;
+            font-size: 50px;
+        }
+    }
+
+    .item_pagination_previus {
+        display: flex;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        align-items: center;
+
+        a {
+            color: white;
+            font-family: "Rama Gothic E W01 Bold";
+            font-size: 50px;
+        }
+
+        .IoIosArrowForward {
+            color: #ffffff;
+            margin-left: 10px;
+            font-size: 50px;
+        }
+    }
+}

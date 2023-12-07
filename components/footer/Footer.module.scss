@@ -1,0 +1,46 @@
+.footer_container{
+    color: white;
+    padding-top: 3.3vmax;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: #000000;
+    font-family: "Space Mono";
+    
+    .email{
+        padding-top: 3vmax;
+        padding-bottom: 3vmax;
+    font-size: 1rem;
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .fluid_engine{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 4vmax;
+        padding-bottom: 3vmax; 
+    }
+}
+@media screen and (max-width: 767px){
+    .footer_container{
+        .email{
+            font-size: 14px;
+        }
+        .fluid_engine{
+            font-size: 14px;
+            padding-left: 25px;
+            padding-right: 25px;
+            >div{
+                flex: 0 0 50%;
+                max-width: 50%;
+                text-align: left;
+            }
+            >div:last-child{
+                text-align: right;
+            }
+        }
+    }
+}

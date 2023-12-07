@@ -1,0 +1,90 @@
+.contact_container {
+    padding-top: 80px;
+    padding-bottom: 3.3vmax;
+    text-align: center;
+    color: white;
+    font-family: "Rama Gothic E W01 Bold";
+    h2{
+        font-size: 100px;
+        font-family: "Rama Gothic E W01 Bold";
+    }
+}
+
+.ContactDetails_form_container {
+    text-align: center;
+    width: 50%;
+    margin: 40px auto; // Center the form
+    max-width: 700px; // Set a maximum width for better responsiveness 
+}
+
+.formGroup {
+    margin-bottom: 20px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #dfdede;
+        text-align: left;
+        font-size: 14px;
+        font-family: "Space Mono";
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        color: white;
+        height: 46px;
+        border:none!important;
+        outline: none!important;
+    }
+    textarea{
+        height: 100px;
+    }
+    .email_required {
+        font-size: 11px;
+        color: #dcdbdb;
+    }
+
+    .whiteText {
+        color: #000000;
+    }
+
+    button {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 1.3em 1.9em;
+        border: 1px solid white;
+        cursor: pointer;
+        font-family: "Space Mono";
+        transition: all 300ms ease-in-out;
+
+    }
+
+    button:hover {
+        background-color: #dcdcdc;
+        color: #000000;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .formGroup{
+        input{
+            height: 41px;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .contact_container {
+        padding-top: 150px;
+        h2{
+            font-size: 13.5vw;
+        }   
+    }
+    .ContactDetails_form_container {
+        width: 100%;
+        max-width: 90%;
+    }
+}

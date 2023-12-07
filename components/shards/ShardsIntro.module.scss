@@ -1,0 +1,61 @@
+.sqs_html_content {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding-top: 6.6vmax;
+  padding-bottom:2vw;
+  max-width: 50%;
+  @media screen and (max-width: 767px){
+    max-width: 90%;
+  }
+  .contact_container {
+    h2 {
+      text-align: center;
+      white-space: pre-wrap;
+      transition-timing-function: ease;
+      transition-duration: 0.9s;
+      transition-delay: 0.24s;
+      color: white;
+      font-family: "Rama Gothic E W01 Bold";
+      font-size: 5.2rem;
+      opacity: 1;
+      @media screen and (min-width: 768px), screen and (max-width: calc(1483px)) and (orientation: landscape){
+        font-size: 8vw;
+      }
+      @media screen and (max-width: 767px){
+        font-size: 60px;
+      }
+    }
+  }
+  .sqs_phe_content {
+    p {
+      text-align: center;
+      font-family: "Space Mono";
+      color: white;
+      font-weight: 400;
+      line-height: 1.5em;
+      -webkit-font-smoothing: antialiased;
+      font-size: 14px;
+      margin: 1rem 0;
+      @media screen and (max-width: 767px){
+        font-size: 12px;
+        word-wrap: break-word;
+      }
+    }
+  }
+  .sqs_phe_info {
+    p {
+      text-align: center;
+      font-family: "Space Mono";
+      color: white;
+      font-weight: 400;
+      line-height: 1.5em;
+      -webkit-font-smoothing: antialiased;
+      font-size: 14px;
+      margin: 1rem 0;
+      @media screen and (max-width: 767px){
+        font-size: 12px;
+        word-wrap: break-word;
+      }
+    }
+  }
+}
